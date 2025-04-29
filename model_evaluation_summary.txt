@@ -1,0 +1,16 @@
+--- Summary of Model Evaluation ---
+1. Traditional Models:
+   - White Noise, Random Walk, AR, and ARMA models performed similarly on differenced log prices
+   - ARIMA and SARIMA models had much higher errors when evaluated on log prices
+   - AR and ARMA models were the best performing traditional models
+
+2. Neural Network Models:
+   - LSTM model significantly outperformed traditional models with an R² of 0.955541
+   - GAN implementation was noted as complex for direct time series forecasting
+
+3. Overall Best Model:
+   - The best performing model was LSTM with:
+     * MSE: 0.001620
+     * RMSE: 0.040247
+     * MAE: 0.032085
+     * R²: 0.955541
